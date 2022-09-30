@@ -52,13 +52,20 @@ body {
 
 
 
-@font-face {
+/* @font-face {
   font-family: 'PicNic';
   src: url('../public/assets/fonts/webfonts/PicNic-Regular.woff') format('woff');
-  /* src: url('../asset/OpenSans/OpenSans-Medium.ttf'); */
   font-weight: 400;
   font-style: normal;
-  }
+  } */
+
+  @font-face {
+    font-family: 'PicNicc';
+    src: url('../assets/fonts/otf/PicNic-Regular.otf');
+    /* src: url('../asset/OpenSans/OpenSans-Medium.ttf'); */
+    /* font-weight: 400;
+    font-style: normal; */
+    }
 
   @font-face {
     font-family: 'IBMPlexMono';
@@ -617,14 +624,7 @@ option {
   
   
   
-    @font-face {
-      font-family: 'PicNic';
-      src: url('../public/assets/fonts/webfonts/PicNic-Regular.woff');
-      /* src: url('../asset/OpenSans/OpenSans-Medium.ttf'); */
-      font-weight: 400;
-      font-style: normal;
-      }
-    
+   
       
   
     .main {
@@ -1626,14 +1626,7 @@ option {
     /* -----------------Background content */
     
     
-    
-      @font-face {
-        font-family: 'PicNic';
-        src: url('../public/assets/fonts/webfonts/PicNic-Regular.woff');
-        /* src: url('../asset/OpenSans/OpenSans-Medium.ttf'); */
-        font-weight: 400;
-        font-style: normal;
-        }
+
       
         
       
@@ -2950,14 +2943,7 @@ option {
   /* -----------------Background content */
   
   
-  
-    @font-face {
-      font-family: 'PicNic';
-      src: url('../public/assets/fonts/webfonts/PicNic-Regular.woff');
-      /* src: url('../asset/OpenSans/OpenSans-Medium.ttf'); */
-      font-weight: 400;
-      font-style: normal;
-      }
+
     
       
     
@@ -3806,7 +3792,9 @@ z-index: 100;
 
 
 @media (min-width: 768px) and (max-width: 1024px) {
-  .container{
+.containermobile{
+    display: unset;
+  }  .container{
     display: none;
   }
   /* CSS */
@@ -3888,7 +3876,9 @@ z-index: 100;
 
 
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-  .container{
+.containermobile{
+    display: unset;
+  }  .container{
     display: none;
   }
   /* CSS */
@@ -3943,7 +3933,9 @@ z-index: 100;
 
 
 @media (min-width: 481px) and (max-width: 767px) {
-  .container{
+.containermobile{
+    display: unset;
+  }  .container{
     display: none;
   }
   /* CSS */
@@ -3997,7 +3989,9 @@ z-index: 100;
 
 
 @media (min-width: 320px) and (max-width: 480px) {
-  .container{
+.containermobile{
+    display: unset;
+  }  .container{
     display: none;
   }
   /* CSS */
