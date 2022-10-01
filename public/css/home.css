@@ -126,7 +126,7 @@ body {
   color: #000dff;
   overflow-y: hidden;
   overflow-x: hidden;
-  cursor: url("../public/assets/images/Fish.cur") -50 -50, auto!important;
+  cursor: url("cursor2.cur") -50 -50, auto!important;
     /* font-family: 'IBMPlexMono';  */
     background: #00002C;
     transition: all 0.75s ease-in-out;
@@ -247,6 +247,13 @@ option {
 
 /* Start----------------------------------------------------------------------------------------------------------------- */
 
+  /* background-image: url(../public/assets/images/backgroundmobile.png); */
+/* .containersoon{
+  background-repeat: no-repeat;
+  background-size: contain;
+    background-image: url(soon.png);
+} */
+
 
   .musicinfo {
     display: none;
@@ -262,7 +269,16 @@ option {
   min-height: 100vh;
   justify-content: center;
   align-items: center;
-  
+}
+
+
+.mainsoon {
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+    background-size: contain;
+      background-image: url(soon.png);
 }
 
 
