@@ -3,9 +3,11 @@
 
 /* hide scrollbar but allow scrolling */
 div {
-  -ms-overflow-style: none; /* for Internet Explorer, Edge */
-  scrollbar-width: none; /* for Firefox */
-  overflow-y: scroll; 
+  /* -ms-overflow-style: none;  */
+  /* for Internet Explorer, Edge */
+  /* scrollbar-width: none;  */
+  /* for Firefox */
+  /* overflow-y: scroll;  */
 }
 
 div::-webkit-scrollbar {
@@ -66,6 +68,14 @@ font-family: 'PicNicc';
     /* font-weight: 400;
     font-style: normal; */
     }
+
+    @font-face {
+      font-family: 'PicNic';
+          src: url('../assets/fonts/webfonts/PicNic-Regular.woff');
+          /* src: url('../asset/OpenSans/OpenSans-Medium.ttf'); */
+          /* font-weight: 400;
+          font-style: normal; */
+          }
 
   @font-face {
     font-family: 'IBMPlexMono';
@@ -248,11 +258,11 @@ option {
 /* Start----------------------------------------------------------------------------------------------------------------- */
 
   /* background-image: url(../public/assets/images/backgroundmobile.png); */
-/* .containersoon{
+.containersoon{
   background-repeat: no-repeat;
   background-size: contain;
     background-image: url(soon.png);
-} */
+}
 
 
   .musicinfo {
@@ -272,14 +282,14 @@ option {
 }
 
 
-.mainsoon {
+/* .mainsoon {
   min-height: 100vh;
   justify-content: center;
   align-items: center;
   background-repeat: no-repeat;
     background-size: contain;
       background-image: url(soon.png);
-}
+} */
 
 
 
@@ -330,6 +340,7 @@ option {
 
 .containermobile{
   display: none;
+  font-size: 3.6vw;
 }
 
 
@@ -417,6 +428,7 @@ option {
   display: flex;
   /* padding: var(--s-20); */
   padding-top: 0px;
+  padding-top: 15px;
   font-size: var( --exx-small-font);
   justify-content: space-between;
 }
@@ -441,7 +453,16 @@ option {
   padding: var(--s-20);
   padding-top: 0vh;
   margin-top: 0;
-  z-index: 100 !important;
+  /* z-index: 100 !important; */
+  display: flex;
+  /* text-transform: uppercase; */
+  justify-content: center;
+  align-content: center;
+  flex-direction: row-reverse;
+  flex-wrap: nowrap;
+  align-items: baseline;
+  position: absolute;
+  bottom: 5vh;
   /* text-transform: uppercase; */
 }
 
@@ -451,12 +472,11 @@ option {
   text-align: left;
   word-spacing: .5rem;
   /* font-size: var( --ex-small-font); */
-  margin: var(--s-10) auto;
+  /* margin: var(--s-10) auto; */
   justify-content:  center;
-  width: 80vw;
   z-index: 100 !important;
   /* border-radius: 5vw; */
-  border-bottom: 1px solid rgb(255, 255, 255);
+  /* border-bottom: 1px solid rgb(255, 255, 255); */
   padding: calc(.5vw + 1px);
   text-transform: uppercase;
     align-items: center;
@@ -464,6 +484,8 @@ option {
     color: white;
     mix-blend-mode:difference;
     text-transform: none;
+    width: 34vw;
+  
 }
 
 .subTextOpacitymobile{
@@ -477,12 +499,14 @@ option {
   z-index: 100 !important;
   /* border-radius: 5vw; */
   /* border-bottom: 1px solid rgb(21, 0, 255); */
-  padding: calc(10.5vw + 1px);
+  /* padding: calc(10.5vw + 1px); */
   text-transform: uppercase;
     align-items: center;
     font-size: .9rem;
     color: white;
     text-transform: none;
+    padding-left: calc(4.5vw + 1px);
+    padding-right: calc(6.5vw + 1px);
 }
 /* 
     text-transform: uppercase;
@@ -495,14 +519,14 @@ option {
 
 
 .algaeListContainer {
-  width:100%;
+  /* width:100%; */
   justify-content: center; 
-  margin: 0 auto;
+  /* margin: 0 auto; */
   font-size: var( --ex-small-font);
   padding-top: var(--s-10);
-  margin: var(--s-10) auto;
+  /* margin: var(--s-10) auto; */
     justify-content: center;
-    width: 80vw;
+    /* width: 80vw; */
     color: white;
     mix-blend-mode:difference;
 }
@@ -729,6 +753,7 @@ option {
   font-weight: 300;
   mix-blend-mode: difference;
   text-transform: uppercase;
+  font-family: 'PicNic';
   font-family: 'PicNicc';
   padding: var(--s-40);
   padding-bottom: 0;
@@ -736,6 +761,10 @@ option {
   pointer-events: none;
   transition:none;
   z-index: 100 !important;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 
@@ -820,7 +849,7 @@ font-size: .850vw;
   /* display: inline-block; */
   transform-origin: 0 0;
   width: 87vw;
-  height: 60vh;
+  /* height: 60vh; */
   margin: auto;
   align-content: center;
   justify-content: center;
@@ -868,28 +897,25 @@ font-size: .850vw;
 
 .nppostname {
   text-align: center;
-  justify-content:  center;
-position: absolute;
-z-index: 1000;
-top: 15%;
-left: 70% !important;
-/* margin-right: -50% !important; */
-transform: translate(-50%, 70%) !important;
-    opacity: 0;
-    -webkit-transform: translate3d(0, -15px, 0);
-            transform: translate3d(0, -15px, 0);
-    -webkit-transition: all 150ms linear;
-    -o-transition: all 150ms linear;
-    transition: all 150ms linear;
-    visibility: hidden;
-    pointer-events: none;
-    color: #ffffff;
-    mix-blend-mode:difference;
-    transition-duration: 2s;
-    text-transform: none;
-    /* font-size: 1.5vh; */
-    width: 20%;
-    font-size: .9rem;
+  justify-content: center;
+  position: absolute;
+  z-index: 1000;
+  top: 0%;
+  left: 13vw !important;
+  transform: translate(-50%, 70%) !important;
+  opacity: 0;
+  -webkit-transform: translate3d(0, -15px, 0);
+  transform: translate3d(0, -15px, 0);
+  -webkit-transition: all 150ms linear;
+  -o-transition: all 150ms linear;
+  transition: all 150ms linear;
+  visibility: hidden;
+  pointer-events: none;
+  color: #ffffff;
+  /* font-weight: bold; */
+  transition-duration: 2s;
+  text-transform: none;
+  font-size: .9rem;
 }
 
 .nppost:hover + .nppostname {
@@ -907,28 +933,25 @@ transform: translate(-50%, 70%) !important;
 
 .nppostnamee {
   text-align: center;
-  justify-content:  center;
-position: absolute;
-z-index: 1000;
-top: 15% !important;
-left: 70% !important;
-/* margin-right: -50% !important; */
-transform: translate(-50%, 70%) !important;
-    opacity: 0;
-    -webkit-transform: translate3d(0, -15px, 0);
-            transform: translate3d(0, -15px, 0);
-    -webkit-transition: all 150ms linear;
-    -o-transition: all 150ms linear;
-    transition: all 150ms linear;
-    visibility: hidden;
-    pointer-events: none;
-    color: #ffffff;
-    mix-blend-mode:difference;
-    transition-duration: 2s;
-    text-transform: none;
-    /* font-size: 1.5vh; */
-    width: 20%;
-    font-size: .9rem;
+  justify-content: center;
+  position: absolute;
+  z-index: 1000;
+  top: 0%;
+  left: 13vw !important;
+  transform: translate(-50%, 70%) !important;
+  opacity: 0;
+  -webkit-transform: translate3d(0, -15px, 0);
+  transform: translate3d(0, -15px, 0);
+  -webkit-transition: all 150ms linear;
+  -o-transition: all 150ms linear;
+  transition: all 150ms linear;
+  visibility: hidden;
+  pointer-events: none;
+  color: #ffffff;
+  /* font-weight: bold; */
+  transition-duration: 2s;
+  text-transform: none;
+  font-size: .9rem;
 }
 
 .nppostt:hover + .nppostnamee {
@@ -941,28 +964,25 @@ transform: translate(-50%, 70%) !important;
 }
 .nppostnameee {
   text-align: center;
-  justify-content:  center;
-position: absolute;
-z-index: 1000;
-top: 15%;
-left: 70% !important;
-/* margin-right: -50% !important; */
-transform: translate(-50%, 70%) !important;
-    opacity: 0;
-    -webkit-transform: translate3d(0, -15px, 0);
-            transform: translate3d(0, -15px, 0);
-    -webkit-transition: all 150ms linear;
-    -o-transition: all 150ms linear;
-    transition: all 150ms linear;
-    visibility: hidden;
-    pointer-events: none;
-    color: #ffffff;
-    mix-blend-mode:difference;
-    transition-duration: 2s;
-    text-transform: none;
-    /* font-size: 1.5vh; */
-    width: 20%;
-    font-size: .9rem;
+  justify-content: center;
+  position: absolute;
+  z-index: 1000;
+  top: 0%;
+  left: 13vw !important;
+  transform: translate(-50%, 70%) !important;
+  opacity: 0;
+  -webkit-transform: translate3d(0, -15px, 0);
+  transform: translate3d(0, -15px, 0);
+  -webkit-transition: all 150ms linear;
+  -o-transition: all 150ms linear;
+  transition: all 150ms linear;
+  visibility: hidden;
+  pointer-events: none;
+  color: #ffffff;
+  /* font-weight: bold; */
+  transition-duration: 2s;
+  text-transform: none;
+  font-size: .9rem;
 }
 
 .npposttt:hover + .nppostnameee {
@@ -1315,6 +1335,7 @@ z-index: 100 !important; */
   opacity: 1;
   font-size: 10rem;
   text-align: center;
+  
   font-family: 'PicNic';
   justify-content: center;
   width: 100vw;
@@ -1647,29 +1668,36 @@ background-color: transparent;
 .fishContainer{
   position: absolute; 
   /* position:fixed; */
-top: 20vh;
+top: 25vh;
+left: 0vw;
+width: 30%;
 }
 .fishContainer2{
   position: absolute; 
   /* position:fixed; */
-  top: 30vh;
+  top: 35vh;
+  left: 0vw;
+  width: 30%;
   }
   .fishContainer3{
     position: absolute; 
     /* position:fixed; */
-    top: 40vh;
+    top: 45vh;
+    left: 0vw;
+    width: 30%;
     }
 
 .fishWrapper{
   position:fixed;
   z-index:100000;
   position: relative;
-  left: 8%;
+  /* left: 8%; */
   top: 15%;
+  height: 20vh;
   /* padding: 2vw; */
   /* transform: translate(-50%, -50%); */
   /* text-align: center; */
-  width: 100vw;
+  /* width: 100vw; */
 }
 
 
@@ -1678,6 +1706,7 @@ top: 20vh;
   /* align-items: center;
   vertical-align: middle;
   text-align: center; */
+    padding-left: 10vw;
 }
 
 .fish2{
@@ -1685,10 +1714,12 @@ top: 20vh;
   /* align-items: center;
   vertical-align: middle;
   text-align: center; */
+    padding-left: 10vw;
 }
 
 .fish3{
   padding: 2vw;
+    padding-left: 10vw;
   /* align-items: center;
   vertical-align: middle;
   text-align: center; */
@@ -1703,11 +1734,12 @@ top: 20vh;
   font-family: 'PicNic';
   justify-content: center;
   width: 100vw;
-  left: 50%;
+  color:#000dff;
+  /* left: 50%;
   top: 51%;
   transform: translate(-50%, -50%);
   position: absolute;
-  pointer-events: none;
+  pointer-events: none; */
 }
 
 
@@ -1848,24 +1880,7 @@ top: 20vh;
     top: 0;
   }
 
-  .subTextOpacitymobile {
-    position: relative;
-    text-align: left;
-    word-spacing: 0.5rem;
-    font-size: var( --ex-small-font);
-    margin: var(--s-10) auto;
-    justify-content: center;
-    width: 100vw;
-    z-index: 100 !important;
-    /* border-radius: 5vw; */
-    /* border-bottom: 1px solid rgb(21, 0, 255); */
-    padding: calc(10.5vw + 1px);
-    text-transform: uppercase;
-    align-items: center;
-    font-size: .9rem;
-    color: white;
-    text-transform: none;
-}
+
 
 .algaeListContainermobile{
   justify-content:  center;

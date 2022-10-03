@@ -44,6 +44,74 @@ function myFunction() {
 
 
 
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction2() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+
+
+
+
+function showDiv() {
+  document.getElementById('welcomeDiv').style.display = "block";
+}
+
+function showDiv2() {
+  document.getElementById('welcomeDiv2').style.display = "block";
+}
+
+function showDiv3() {
+  document.getElementById('welcomeDiv3').style.display = "block";
+}
+
+function showDiv4() {
+  document.getElementById('welcomeDiv4').style.display = "block";
+}
+
+function showDiv5() {
+  document.getElementById('welcomeDiv5').style.display = "block";
+}
+
+function showDiv6() {
+  document.getElementById('welcomeDiv6').style.display = "block";
+}
+
+function showDiv7() {
+  document.getElementById('welcomeDiv7').style.display = "block";
+}
+
+function showDiv8() {
+  document.getElementById('welcomeDiv8').style.display = "block";
+}
+
+function showDiv9() {
+  document.getElementById('welcomeDiv9').style.display = "block";
+}
+
+function showDiv10() {
+  document.getElementById('welcomeDiv10').style.display = "block";
+}
+
+function showDiv11() {
+  document.getElementById('welcomeDiv11').style.display = "block";
+}
+
+
 
   // ----------------------------------- herring fish ----------------------------------------------------
   $(document).ready(function(){

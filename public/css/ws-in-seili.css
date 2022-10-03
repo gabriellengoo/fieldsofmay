@@ -51,6 +51,26 @@ body {
 }
 
 
+.footnote{
+  border-top: 1px solid;
+  padding-top: 10px;
+  color: rgb(10, 199, 39);
+  font-size: 1vw;
+  width: 60%;
+}
+
+.footnotemobile{
+  border-top: 1px solid;
+  padding-top: 10px;
+  color: rgb(10, 199, 39);
+  font-size: 2.5vw;
+}
+
+
+.link{
+  color: rgb(10, 199, 39);
+}
+
 /* @font-face {
   font-family: 'PicNic';
   src: url('../public/assets/fonts/webfonts/PicNic-Regular.woff') format('woff');
@@ -234,6 +254,9 @@ select {
 option {
   border: solid 1px #DDDDDD;
 }
+
+
+
 
 
 
@@ -433,6 +456,9 @@ option {
   }
   
   
+  .seminarimage img{
+    width: 60%;
+  }
   
   /* --------------------- gradient */
   
@@ -1047,7 +1073,15 @@ option {
   .titlewitness{
     font-size: 3em;
     line-height: 0em;
-    font-family: PicNic;
+    /* font-family: PicNic; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100% !important;
+    color: rgb(10, 199, 39);
+        line-height: 2.75vw !important;
+        font-size: 2.75vw !important;
+    margin-bottom: 0.5vw !important;
   }
   
   
@@ -1072,9 +1106,10 @@ option {
   
   .seminarimage{
     display: grid;
-  align-items: center;
-  padding: 2vw;
-  justify-items: center;
+    align-items: center;
+    padding: 2vw;
+    justify-items: center;
+    justify-content: start;
   }
   
   
@@ -1229,12 +1264,14 @@ option {
       display: flex;
       text-align: center;
       justify-content: center;
-      border: 1px solid #0000ffd4;
+      border: 1px solid rgb(10, 199, 39);
       border-radius: 50%;
       width: 96vw;
       -webkit-backdrop-filter: blur(4px);
       backdrop-filter: blur(4px);
-      background: #2020643b;
+      background: #ffffff1f;
+      color: rgb(10, 199, 39);
+      font-size: 3.6vw;
     }
   
   
@@ -2250,35 +2287,33 @@ option {
       }
   
         .contentwrapper{
-            text-align: left;
-            flex-direction: column; 
-            overflow: scroll;
-            /* width: 60%; */
-            text-transform: none;
-            font-family: "Helvetica Neue LT W01_65 Md",helvetica,sans-serif;
-            font-weight:200;
-            margin: var(--s-80);
-            min-height: 200px; 
-            background-color:#625fb93c;
-            backdrop-filter: blur(20px);
-            padding: var(--s-40);
-            border-radius: 2vw;
-            /* border: .5px solid #e0e0e0; */
-            justify-content: center;
-            z-index: 10;
-            height: 85vh;
-            /* color: #e0e0e0;
-            mix-blend-mode: difference; */
-            
+           text-align: left;
+    flex-direction: column;
+    overflow: scroll;
+    /* width: 60%; */
+    /* text-transform: none; */
+    /* font-family: "Helvetica Neue LT W01_65 Md",helvetica,sans-serif; */
+    font-weight: 200;
+    /* margin: var(--s-80); */
+    min-height: 200px;
+    /* background-color: #625fb93c; */
+    /* backdrop-filter: blur(20px); */
+    /* padding: var(--s-40); */
+    /* border-radius: 2vw; */
+    /* border: 0.5px solid #e0e0e0; */
+    /* justify-content: center; */
+    /* z-index: 10; */
+    /* height: 85vh; */
         }
   
         .contentparagraph{
-            display: flex;
-            flex-direction:row;
-            mix-blend-mode: none;
-            z-index: 100;
-            mix-blend-mode: difference;
-            color:#e0e0e0;
+          display: flex;
+          flex-direction: column;
+          mix-blend-mode: none;
+          z-index: 100;
+          mix-blend-mode: difference;
+          color: #e0e0e0;
+          align-items: center;
         }
   
         .contentwrapper p{
@@ -2286,6 +2321,7 @@ option {
          mix-blend-mode: difference;
     /* color: #edff85d4; */
     z-index: 100;
+    width: 50%;
         }
   
       .contentwrappermobile p{
@@ -2524,19 +2560,21 @@ option {
 
 
   .subtitlemobile{
-    font-size: 9vw;
+    font-size: 6vw;
     text-transform: none;
     line-height: 0;
     padding: 7vw;
     padding-top: 0vh;
     padding-bottom: 0vh;
+    color: rgb(10, 199, 39);
   }
   .subtitlemobiletop{
-    font-size: 9vw;
+    font-size: 6vw;
     text-transform: none;
     line-height: 0;
     padding: 7vw;
     padding-top: 15vh;
+    color: rgb(10, 199, 39);
   }
 
 
@@ -3576,8 +3614,8 @@ background-color: #625fb93c;
           font-weight:200;
           margin: var(--s-80);
           min-height: 200px; 
-          background-color:#625fb93c;
-          backdrop-filter: blur(20px);
+          /* background-color:#625fb93c; */
+          /* backdrop-filter: blur(20px); */
           padding: var(--s-40);
           border-radius: 2vw;
           /* border: .5px solid #e0e0e0; */
@@ -3590,12 +3628,27 @@ background-color: #625fb93c;
       }
 
       .contentparagraph{
-          display: flex;
-          flex-direction:row;
-          mix-blend-mode: none;
-          z-index: 100;
-          mix-blend-mode: difference;
-          color:#e0e0e0;
+        display: flex;
+        flex-direction: column;
+        mix-blend-mode: none;
+        z-index: 100;
+        mix-blend-mode: difference;
+        color: #e0e0e0;
+        align-items: center;
+      }
+
+      .contentparagraphtitle{
+        display: flex;
+        flex-direction: column;
+        mix-blend-mode: none;
+        z-index: 100;
+        mix-blend-mode: difference;
+        color: #e0e0e0;
+        align-items: center;
+        color: rgb(10, 199, 39);
+        line-height: 2.75vw !important;
+        font-size: 2.75vw !important;
+    margin-bottom: 0.5vw !important;
       }
 
       .contentwrapper p{
@@ -3603,6 +3656,7 @@ background-color: #625fb93c;
        mix-blend-mode: difference;
   /* color: #edff85d4; */
   z-index: 100;
+  width: 50%;
       }
 
     .contentwrappermobile p{
@@ -3862,6 +3916,7 @@ z-index: 100;
   z-index: 10;
   padding-top: 6rem;
   margin: auto;
+  
 }
 }
 
