@@ -939,7 +939,7 @@ option {
       text-decoration: underline;
       text-underline-offset: .5px;
       transition: opacity 0.35s, padding-left 0.75s;
-      padding: var(--s-10);
+      /* padding: var(--s-10); */
     }
     
     .link:hover{
@@ -2103,7 +2103,7 @@ option {
         text-decoration: underline;
         text-underline-offset: .5px;
         transition: opacity 0.35s;
-        padding: var(--s-10);
+        /* padding: var(--s-10); */
         
       }
       
@@ -2309,19 +2309,22 @@ option {
         .contentparagraph{
           display: flex;
           flex-direction: column;
+          flex-direction: row;
           mix-blend-mode: none;
           z-index: 100;
           mix-blend-mode: difference;
           color: #e0e0e0;
-          align-items: center;
+          /* align-items: center; */
+          align-items: flex-start;
         }
   
         .contentwrapper p{
-            padding: var(--s-10);
+            /* padding: var(--s-10); */
          mix-blend-mode: difference;
     /* color: #edff85d4; */
     z-index: 100;
     width: 50%;
+    margin: 0.5vh;
         }
   
       .contentwrappermobile p{
@@ -2566,6 +2569,7 @@ option {
     padding: 7vw;
     padding-top: 0vh;
     padding-bottom: 0vh;
+    margin-bottom: 2.5vh;
     color: rgb(10, 199, 39);
   }
   .subtitlemobiletop{
@@ -2574,6 +2578,8 @@ option {
     line-height: 0;
     padding: 7vw;
     padding-top: 15vh;
+    margin-bottom: 1.5vh;
+    padding-bottom: 2.5vh;
     color: rgb(10, 199, 39);
   }
 
@@ -3422,7 +3428,7 @@ option {
       text-decoration: underline;
       text-underline-offset: .5px;
       transition: opacity 0.35s;
-      padding: var(--s-10);
+      /* padding: var(--s-10); */
       
     }
     
@@ -3630,11 +3636,13 @@ background-color: #625fb93c;
       .contentparagraph{
         display: flex;
         flex-direction: column;
+        flex-direction: row;
         mix-blend-mode: none;
         z-index: 100;
         mix-blend-mode: difference;
         color: #e0e0e0;
-        align-items: center;
+        /* align-items: center; */
+        align-items: flex-start;
       }
 
       .contentparagraphtitle{
@@ -3646,17 +3654,19 @@ background-color: #625fb93c;
         color: #e0e0e0;
         align-items: center;
         color: rgb(10, 199, 39);
+        text-align: center;
         line-height: 2.75vw !important;
         font-size: 2.75vw !important;
     margin-bottom: 0.5vw !important;
       }
 
       .contentwrapper p{
-          padding: var(--s-10);
+          /* padding: var(--s-5); */
        mix-blend-mode: difference;
   /* color: #edff85d4; */
   z-index: 100;
   width: 50%;
+  margin: 0.5vh;
       }
 
     .contentwrappermobile p{
