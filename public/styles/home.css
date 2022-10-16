@@ -482,8 +482,8 @@ option {
   padding: calc(.5vw + 1px);
   text-transform: uppercase;
     align-items: center;
-    font-size: .9rem;
     font-size: 1vw;
+    font-size: 14px;
     color: white;
     mix-blend-mode:difference;
     text-transform: none;
