@@ -2989,6 +2989,27 @@ display: flex;
     top: 0;
   }
 
+
+  .ac-container {
+    width: 100%;
+    margin: 0px auto 0px auto;
+    text-align: left;
+    color: white;
+    mix-blend-mode: difference;
+    font-size: 14px;
+}
+
+.paragraph1 {
+  font-size: 14px;
+}
+
+
+.ac-container {
+  max-width: 100vw;
+  padding-top: 5vh;
+  color: white;
+  mix-blend-mode: difference;
+}
   
 }
 
@@ -3087,4 +3108,393 @@ display: flex;
 
   
   
+}
+
+
+
+@media all and (device-width:1024px ) and (device-height: 1366px) and (orientation:portrait) {
+  .ac-container {
+    width: 100%;
+    margin: 0px auto 0px auto;
+    text-align: left;
+    color: white;
+    mix-blend-mode: difference;
+    font-size: 14px;
+}
+
+.paragraph1 {
+  font-size: 14px;
+}
+
+
+.ac-container {
+  max-width: 100vw;
+  padding-top: 5vh;
+  color: white;
+  mix-blend-mode: difference;
+}
+}
+
+
+@media all and (device-width:768px ) and (device-height: 1024px) and (orientation:portrait) {
+  .ac-container {
+    width: 100%;
+    margin: 0px auto 0px auto;
+    text-align: left;
+    color: white;
+    mix-blend-mode: difference;
+    font-size: 14px;
+}
+
+.paragraph1 {
+  font-size: 14px;
+}
+
+
+.ac-container {
+  max-width: 100vw;
+  padding-top: 5vh;
+  color: white;
+  mix-blend-mode: difference;
+}
+}
+
+
+@media all and (device-width: 1024px) and (device-height: 768px) and (orientation:landscape) {
+
+  .ac-container {
+    width: 100%;
+    margin: 0px auto 0px auto;
+    text-align: left;
+    color: white;
+    mix-blend-mode: difference;
+    font-size: 14px;
+}
+
+.paragraph1 {
+  font-size: 14px;
+}
+
+
+.ac-container {
+  max-width: 100vw;
+  padding-top: 5vh;
+  color: white;
+  mix-blend-mode: difference;
+}
+}
+
+
+
+@media all and (device-width: 812px) and (device-height: 375px) and (orientation:landscape) {
+
+  .ac-container {
+    width: 100%;
+    margin: 0px auto 0px auto;
+    text-align: left;
+    color: white;
+    mix-blend-mode: difference;
+    font-size: 14px;
+}
+
+.paragraph1 {
+  font-size: 14px;
+}
+
+
+.ac-container {
+  max-width: 100vw;
+  padding-top: 5vh;
+  color: white;
+  mix-blend-mode: difference;
+}
+
+}
+
+
+@media all and (device-width: 736px) and (device-height: 414px) and (orientation:landscape) {
+
+  .ac-container {
+    width: 100%;
+    margin: 0px auto 0px auto;
+    text-align: left;
+    color: white;
+    mix-blend-mode: difference;
+    font-size: 14px;
+}
+
+.paragraph1 {
+  font-size: 14px;
+}
+
+
+.ac-container {
+  max-width: 100vw;
+  padding-top: 5vh;
+  color: white;
+  mix-blend-mode: difference;
+}
+
+}
+
+
+@media all and (device-width: 1024px) and (device-height: 600px) and (orientation:landscape) {
+
+  .ac-container {
+    width: 100%;
+    margin: 0px auto 0px auto;
+    text-align: left;
+    color: white;
+    mix-blend-mode: difference;
+    font-size: 14px;
+}
+
+.paragraph1 {
+  font-size: 14px;
+}
+
+
+.ac-container {
+  max-width: 100vw;
+  padding-top: 5vh;
+  color: white;
+  mix-blend-mode: difference;
+}
+
+}
+
+
+
+@media all and (device-width: 914px) and (device-height: 412px) and (orientation:landscape) {
+
+  .ac-container {
+    width: 100%;
+    margin: 0px auto 0px auto;
+    text-align: left;
+    color: white;
+    mix-blend-mode: difference;
+    font-size: 14px;
+}
+
+.paragraph1 {
+  font-size: 14px;
+}
+
+
+.ac-container {
+  max-width: 100vw;
+  padding-top: 5vh;
+  color: white;
+  mix-blend-mode: difference;
+}
+
+}
+
+
+@media all and (device-width: 912px) and (device-height: 1368px) and (orientation:portrait) {
+
+  .ac-container {
+    width: 100%;
+    margin: 0px auto 0px auto;
+    text-align: left;
+    color: white;
+    mix-blend-mode: difference;
+    font-size: 14px;
+}
+
+.paragraph1 {
+  font-size: 14px;
+}
+
+
+.ac-container {
+  max-width: 100vw;
+  padding-top: 5vh;
+  color: white;
+  mix-blend-mode: difference;
+}
+
+}
+
+@media all and (device-width: 820px) and (device-height: 1180px) and (orientation:portrait) {
+
+  .ac-container {
+    width: 100%;
+    margin: 0px auto 0px auto;
+    text-align: left;
+    color: white;
+    mix-blend-mode: difference;
+    font-size: 14px;
+}
+
+.paragraph1 {
+  font-size: 14px;
+}
+
+
+.ac-container {
+  max-width: 100vw;
+  padding-top: 5vh;
+  color: white;
+  mix-blend-mode: difference;
+}
+
+}
+
+
+
+@media all and (device-width: 667px) and (device-height: 375px) and (orientation:landscape) {
+
+  .ac-container {
+    width: 100%;
+    margin: 0px auto 0px auto;
+    text-align: left;
+    color: white;
+    mix-blend-mode: difference;
+    font-size: 14px;
+}
+
+.paragraph1 {
+  font-size: 14px;
+}
+
+
+.ac-container {
+  max-width: 100vw;
+  padding-top: 5vh;
+  color: white;
+  mix-blend-mode: difference;
+}
+
+}
+
+
+@media all and (device-width: 915px) and (device-height: 412px) and (orientation:landscape) {
+
+  .ac-container {
+    width: 100%;
+    margin: 0px auto 0px auto;
+    text-align: left;
+    color: white;
+    mix-blend-mode: difference;
+    font-size: 14px;
+}
+
+.paragraph1 {
+  font-size: 14px;
+}
+
+
+.ac-container {
+  max-width: 100vw;
+  padding-top: 5vh;
+  color: white;
+  mix-blend-mode: difference;
+}
+
+}
+
+
+
+@media all and (device-width: 851px) and (device-height: 393px) and (orientation:landscape) {
+
+  .ac-container {
+    width: 100%;
+    margin: 0px auto 0px auto;
+    text-align: left;
+    color: white;
+    mix-blend-mode: difference;
+    font-size: 14px;
+}
+
+.paragraph1 {
+  font-size: 14px;
+}
+
+
+.ac-container {
+  max-width: 100vw;
+  padding-top: 5vh;
+  color: white;
+  mix-blend-mode: difference;
+}
+
+}
+
+
+@media all and (device-width: 844px) and (device-height: 390px) and (orientation:landscape) {
+
+  .ac-container {
+    width: 100%;
+    margin: 0px auto 0px auto;
+    text-align: left;
+    color: white;
+    mix-blend-mode: difference;
+    font-size: 14px;
+}
+
+.paragraph1 {
+  font-size: 14px;
+}
+
+
+.ac-container {
+  max-width: 100vw;
+  padding-top: 5vh;
+  color: white;
+  mix-blend-mode: difference;
+}
+
+}
+
+
+@media all and (device-width: 896px) and (device-height: 414px) and (orientation:landscape) {
+
+  .ac-container {
+    width: 100%;
+    margin: 0px auto 0px auto;
+    text-align: left;
+    color: white;
+    mix-blend-mode: difference;
+    font-size: 14px;
+}
+
+.paragraph1 {
+  font-size: 14px;
+}
+
+
+.ac-container {
+  max-width: 100vw;
+  padding-top: 5vh;
+  color: white;
+  mix-blend-mode: difference;
+}
+
+}
+
+
+@media all and (device-width: 480px) and (device-height: 320px) and (orientation:landscape) {
+
+  .ac-container {
+    width: 100%;
+    margin: 0px auto 0px auto;
+    text-align: left;
+    color: white;
+    mix-blend-mode: difference;
+    font-size: 14px;
+}
+
+.paragraph1 {
+  font-size: 14px;
+}
+
+
+.ac-container {
+  max-width: 100vw;
+  padding-top: 5vh;
+  color: white;
+  mix-blend-mode: difference;
+}
+
 }
