@@ -1989,6 +1989,7 @@ width: 100%;
   z-index: 100000;
   mix-blend-mode: unset;
   /* background: rgb(205 205 205 / 65%); */
+  background: #0a0a5b;
   backdrop-filter: blur(10px);
 }
 .accordion-bral input:checked ~ .article i {
