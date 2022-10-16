@@ -1363,8 +1363,8 @@ figcaption{
   pointer-events: none;
   /* color: #ffffff; */
   transition-duration: 2s;
-  font-size: .9rem;
   font-size: 1vw;
+  font-size: 14px;
   position: relative;
   /* left: 16vw; */
   text-align: left;

@@ -182,7 +182,7 @@ div {
           opacity: 1;
       }
   }
-  
+   
   
   
   select:focus {
@@ -1521,6 +1521,7 @@ padding: 2vw;
       padding-top: 10px;
       color: rgb(10, 199, 39);
       font-size: 1vw;
+      font-size: 14px;
       width: 60%;
     }
     
@@ -2434,6 +2435,7 @@ z-index: 100;
   font-weight: bold;
   font-size: 3em; */
   font-size: .9vw;
+  font-size: 14px;
   /* font-size: 1.15vw; */
   text-align: center;
   /* border-radius: 5vw; */
