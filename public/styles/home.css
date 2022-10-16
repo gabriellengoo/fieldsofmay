@@ -1865,7 +1865,7 @@ width: 100%;
 .bottomcont{
   position: absolute;
   bottom: 2vw;
-  z-index: 1000;
+  z-index: 1;
   /* display: flex; */
   mix-blend-mode: difference;
   flex-direction: column;
@@ -1905,7 +1905,7 @@ width: 100%;
   height: 100%;
   /* background-color: #FFF; */
   margin: 0px!important;
-  mix-blend-mode: difference;
+  /* mix-blend-mode: difference; */
 }
 .accordion-bral .ac-label {
   /* font-family: Arial, sans-serif;
@@ -1919,6 +1919,7 @@ width: 100%;
   font-size: 19px;
   font-size: 3.5vw;
   color: white;
+  color: rgb(238 226 167);
   position: relative;
   text-align: left;
   /* word-spacing: 0.5rem; */
@@ -1943,6 +1944,7 @@ width: 100%;
   /* background: #BBB; */
 }
 .accordion-bral input + .ac-label  {
+  color: rgb(255 255 159);
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
@@ -1952,7 +1954,8 @@ width: 100%;
 .accordion-bral input:checked + .ac-label,
 .accordion-bral input:checked + .ac-label:active {
   /* color: #FFF; */
-  mix-blend-mode: difference;
+  color: rgb(255 255 159);
+  /* mix-blend-mode: difference; */
 }
 .accordion-bral input.ac-input {
   display: none;
@@ -1979,8 +1982,14 @@ width: 100%;
   padding-left: calc(5.5vw + 1px);
   padding-right: calc(1.5vw + 1px);
   color: white;
+  color: rgb(255 255 159);
   padding-top: 0vh;
-  mix-blend-mode: difference;
+  /* mix-blend-mode: difference; */
+  /* background: rgb(14 0 168); */
+  z-index: 100000;
+  mix-blend-mode: unset;
+  /* background: rgb(205 205 205 / 65%); */
+  backdrop-filter: blur(10px);
 }
 .accordion-bral input:checked ~ .article i {
   -webkit-transition: all 0.5s ease-in-out;
@@ -1997,13 +2006,16 @@ width: 100%;
   margin: var(--s-10) auto;
   justify-content: center;
   width: 100vw;
-  z-index: 100 !important;
+  /* z-index: 100 !important; */
   text-transform: uppercase;
   align-items: center;
   color: white;
   text-transform: none;
   width: 99vw;
-  mix-blend-mode: difference;
+  /* mix-blend-mode: difference; */
+  /* background: rgb(14 0 168); */
+  z-index: 100000;
+  mix-blend-mode: unset;
   padding-top: 0vh !important;
   margin-top: 0vh !important;
 }
@@ -2059,6 +2071,7 @@ table.ac-table th{
   font-size: 19px;
   font-size: 3.5vw;
   color: white;
+  color: rgb(255 255 159);
   /* background: #EFEFEF; */
   /* border: 1px solid #CCC; */
   position: relative;
