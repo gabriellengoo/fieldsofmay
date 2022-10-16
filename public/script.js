@@ -237,6 +237,33 @@ $( document ).on( "mousemove", function( event ) {
 
 
 
-
  
-  
+  // ----------------------------------------------------------------
+// var acc = document.getElementsByClassName("accordionn");
+// var i;
+
+// for (i = 0; i < acc.length; i++) {
+//   acc[i].addEventListener("click", function() {
+//     this.classList.toggle("activee");
+//     var panell = this.nextElementSibling;
+//     if (panell.style.display === "block") {
+//       panell.style.display = "none";
+//     } else {
+//       panell.style.display = "block";
+//     }
+//   });
+// }
+
+   /**
+     * EFECTO PARA FLECHAS EN ACORDEON
+     */
+    
+    $(document).on('show','.accordion', function (e) {
+      //$('.accordion-heading i').toggleClass(' ');
+      $(e.target).prev('.accordion-heading').addClass('accordion-opened');
+ });
+ 
+ $(document).on('hide','.accordion', function (e) {
+     $(this).find('.accordion-heading').not($(e.target)).removeClass('accordion-opened');
+     //$('.accordion-heading i').toggleClass('fa-chevron-right fa-chevron-down');
+ });
