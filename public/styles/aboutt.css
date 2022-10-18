@@ -719,7 +719,7 @@ top: 0;
     display: flex;
     /* padding-top: var(--s-10); */
     flex-wrap: wrap;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     justify-content:  center;
     width: 100vw;
     z-index: 10;
@@ -1748,7 +1748,7 @@ padding: 2vw;
       display: flex;
       /* padding-top: var(--s-10); */
       flex-wrap: wrap;
-      text-transform: uppercase;
+      /* text-transform: uppercase; */
       /* justify-content:  center; */
       width: 100vw;
       /* height: 100vh; */
@@ -1757,22 +1757,7 @@ padding: 2vw;
       transition: all 1s ease-out;
     }
     
-    .subMenu{
-      /* margin-left: auto;
-      margin-right: auto;
-      display: table-cell;
-      width: 100vw;
-      z-index: 50000;
-      position: absolute;
-      display: flex;
-      padding: var(--s-20);
-      font-size: var( --exx-small-font);
-      justify-content: space-between;
-      top: 0;
-      width: 80vw;
-      margin: var(--s-10) auto; */
-    }
-
+  
     .subMenu{
       margin-left: auto;
       margin-right:  auto;
@@ -1783,7 +1768,7 @@ padding: 2vw;
       /* z-index: 10; */
       display: flex;
       padding: var(--s-20);
-      padding-top: 0px;
+      padding-top: 16px;
       z-index: 10000;
       font-size: var( --exx-small-font);
       justify-content: space-between;
@@ -2473,7 +2458,7 @@ display: flex;
 /*Acco*/
 .ac-container {
   max-width: 400px;
-  padding-top:5vh;
+  padding-top:9vh;
   color: white;
     mix-blend-mode: difference;
 }
@@ -3089,7 +3074,7 @@ display: flex;
   
   .topnav a {
     color: white;
-    padding: 14px 16px;
+    padding: 7px 17px;
     text-decoration: none;
     /* font-size: 17px; */
     display: block;

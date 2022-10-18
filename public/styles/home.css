@@ -430,7 +430,7 @@ option {
   display: flex;
   /* padding: var(--s-20); */
   padding-top: 0px;
-  padding-top: 15px;
+  padding-top: 10px;
   font-size: var( --exx-small-font);
   justify-content: space-between;
 }
@@ -472,7 +472,7 @@ option {
 .subTextOpacity{
   position: relative;
   text-align: left;
-  word-spacing: .5rem;
+  /* word-spacing: .5rem; */
   /* font-size: var( --ex-small-font); */
   /* margin: var(--s-10) auto; */
   justify-content:  center;
@@ -487,7 +487,7 @@ option {
     color: white;
     mix-blend-mode:difference;
     text-transform: none;
-    width: 34vw;
+    width: 26vw;
   
 }
 
@@ -1291,7 +1291,7 @@ z-index: 10000;
     font-size: 3.5vw;
     color: white;
     text-transform: none;
-    padding-left: calc(2.5vw + 1px);
+    padding-left: calc(1.5vw + 1px);
     padding-right: calc(1.5vw + 1px);
 }
 
@@ -1903,6 +1903,8 @@ width: 100%;
   min-width: 220px;
   width: 100%;
   height: 100%;
+  position: relative;
+  bottom: -14vh;
   /* background-color: #FFF; */
   margin: 0px!important;
   /* mix-blend-mode: difference; */
@@ -1976,6 +1978,7 @@ width: 100%;
   /* line-height: 23px; */
   /* font-size: 14px;
   padding: 20px; */
+  margin: 0;
   font-size: 3.5vw !important;
   padding-left: calc(4.5vw + 1px);
   padding-right: calc(6.5vw + 1px);
@@ -2059,7 +2062,10 @@ table.ac-table th{
 }
 
 @media (max-width: 550px) {
-.accordion-bral .ac-label {
+.algaeListContainermobile div {
+    width: 8.5vw;
+    width: 39.5vw;
+}.accordion-bral .ac-label {
     font-size: 14px !important;
   } .accordion-bral .article p {
     font-size: 14px !important;
@@ -2199,7 +2205,10 @@ table.ac-table th{
 
 
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-.accordion-bral .ac-label {
+.algaeListContainermobile div {
+    width: 8.5vw;
+    width: 39.5vw;
+}.accordion-bral .ac-label {
     font-size: 14px !important;
   } .accordion-bral .article p {
     font-size: 14px !important;
@@ -2288,6 +2297,8 @@ table.ac-table th{
 }
   
 
+
+
 }
 
 /* 
@@ -2299,7 +2310,10 @@ table.ac-table th{
 
 
 @media (min-width: 481px) and (max-width: 767px) {
-.accordion-bral .ac-label {
+.algaeListContainermobile div {
+    width: 8.5vw;
+    width: 39.5vw;
+}.accordion-bral .ac-label {
     font-size: 14px !important;
   } .accordion-bral .article p {
     font-size: 14px !important;
@@ -2385,7 +2399,10 @@ font-size: 3vw;
 
 
 @media (min-width: 320px) and (max-width: 480px) {
-.accordion-bral .ac-label {
+.algaeListContainermobile div {
+    width: 8.5vw;
+    width: 39.5vw;
+}.accordion-bral .ac-label {
     font-size: 14px !important;
   } .accordion-bral .article p {
     font-size: 14px !important;
@@ -2397,9 +2414,9 @@ font-size: 3vw;
 
   .livetextmobile{
     padding-top: 11vh;
-    font-size: 16vh;
+    /* font-size: 16vh; */
     padding-top: 5vh;
-    font-size: 15.5vh;
+    font-size: 20.5vh;
     /* font-size: 12.5vh; */
     /* max-width: 80vw;*/
   }
@@ -2451,7 +2468,7 @@ font-size: 3vw;
   
   .topnav a {
     color: white;
-    padding: 14px 16px;
+    padding: 7px 17px;
     text-decoration: none;
     /* font-size: 17px; */
     display: block;
@@ -2474,10 +2491,13 @@ font-size: 3vw;
 
 
 @media all and (device-width:1024px ) and (device-height: 1366px) and (orientation:portrait) {
-.accordion-bral .ac-label {
-    font-size: 14px !important;
+.algaeListContainermobile div {
+    width: 8.5vw;
+    width: 39.5vw;
+}.accordion-bral .ac-label {
+  font-size: 3.5vw !important;
   } .accordion-bral .article p {
-    font-size: 14px !important;
+    font-size: 3.5vw !important;
   }  .ac-container {
     width: 100%;
     margin: 0px auto 0px auto;
@@ -2498,14 +2518,36 @@ font-size: 3vw;
   color: white;
   mix-blend-mode: difference;
 }
+
+.accordion-bral input:checked ~ .article.ac-content {
+  /* padding-top: 0vh !important; */
+  padding-top: 1vh !important;
+}
+
+
+
+.livetextmobile{
+  padding-top: 3vh;
+    font-size: 21vh;
+}
+
+
+.accordion-bral {
+  bottom: 5vh;
+}
+
+
 }
 
 
 @media all and (device-width:768px ) and (device-height: 1024px) and (orientation:portrait) {
-.accordion-bral .ac-label {
-    font-size: 14px !important;
+.algaeListContainermobile div {
+    width: 8.5vw;
+    width: 39.5vw;
+}.accordion-bral .ac-label {
+  font-size: 3.5vw !important;
   } .accordion-bral .article p {
-    font-size: 14px !important;
+    font-size: 3.5vw !important;
   }  .ac-container {
     width: 100%;
     margin: 0px auto 0px auto;
@@ -2526,11 +2568,28 @@ font-size: 3vw;
   color: white;
   mix-blend-mode: difference;
 }
+
+
+
+.livetextmobile{
+  padding-top: 3vh;
+    font-size: 21vh;
+}
+
+
+.accordion-bral {
+  bottom: 5vh;
+}
+
+
 }
 
 
 @media all and (device-width: 1024px) and (device-height: 768px) and (orientation:landscape) {
-.accordion-bral .ac-label {
+.algaeListContainermobile div {
+    width: 8.5vw;
+    width: 39.5vw;
+}.accordion-bral .ac-label {
     font-size: 14px !important;
   } .accordion-bral .article p {
     font-size: 14px !important;
@@ -2560,7 +2619,10 @@ font-size: 3vw;
 
 
 @media all and (device-width: 812px) and (device-height: 375px) and (orientation:landscape) {
-.accordion-bral .ac-label {
+.algaeListContainermobile div {
+    width: 8.5vw;
+    width: 39.5vw;
+}.accordion-bral .ac-label {
     font-size: 14px !important;
   } .accordion-bral .article p {
     font-size: 14px !important;
@@ -2590,7 +2652,10 @@ font-size: 3vw;
 
 
 @media all and (device-width: 736px) and (device-height: 414px) and (orientation:landscape) {
-.accordion-bral .ac-label {
+.algaeListContainermobile div {
+    width: 8.5vw;
+    width: 39.5vw;
+}.accordion-bral .ac-label {
     font-size: 14px !important;
   } .accordion-bral .article p {
     font-size: 14px !important;
@@ -2620,7 +2685,10 @@ font-size: 3vw;
 
 
 @media all and (device-width: 1024px) and (device-height: 600px) and (orientation:landscape) {
-.accordion-bral .ac-label {
+.algaeListContainermobile div {
+    width: 8.5vw;
+    width: 39.5vw;
+}.accordion-bral .ac-label {
     font-size: 14px !important;
   } .accordion-bral .article p {
     font-size: 14px !important;
@@ -2651,7 +2719,10 @@ font-size: 3vw;
 
 
 @media all and (device-width: 914px) and (device-height: 412px) and (orientation:landscape) {
-.accordion-bral .ac-label {
+.algaeListContainermobile div {
+    width: 8.5vw;
+    width: 39.5vw;
+}.accordion-bral .ac-label {
     font-size: 14px !important;
   } .accordion-bral .article p {
     font-size: 14px !important;
@@ -2681,7 +2752,10 @@ font-size: 3vw;
 
 
 @media all and (device-width: 912px) and (device-height: 1368px) and (orientation:portrait) {
-.accordion-bral .ac-label {
+.algaeListContainermobile div {
+    width: 8.5vw;
+    width: 39.5vw;
+}.accordion-bral .ac-label {
     font-size: 14px !important;
   } .accordion-bral .article p {
     font-size: 14px !important;
@@ -2710,7 +2784,10 @@ font-size: 3vw;
 }
 
 @media all and (device-width: 820px) and (device-height: 1180px) and (orientation:portrait) {
-.accordion-bral .ac-label {
+.algaeListContainermobile div {
+    width: 8.5vw;
+    width: 39.5vw;
+}.accordion-bral .ac-label {
     font-size: 14px !important;
   } .accordion-bral .article p {
     font-size: 14px !important;
@@ -2741,7 +2818,10 @@ font-size: 3vw;
 
 
 @media all and (device-width: 667px) and (device-height: 375px) and (orientation:landscape) {
-.accordion-bral .ac-label {
+.algaeListContainermobile div {
+    width: 8.5vw;
+    width: 39.5vw;
+}.accordion-bral .ac-label {
     font-size: 14px !important;
   } .accordion-bral .article p {
     font-size: 14px !important;
@@ -2771,7 +2851,10 @@ font-size: 3vw;
 
 
 @media all and (device-width: 915px) and (device-height: 412px) and (orientation:landscape) {
-.accordion-bral .ac-label {
+.algaeListContainermobile div {
+    width: 8.5vw;
+    width: 39.5vw;
+}.accordion-bral .ac-label {
     font-size: 14px !important;
   } .accordion-bral .article p {
     font-size: 14px !important;
@@ -2802,7 +2885,10 @@ font-size: 3vw;
 
 
 @media all and (device-width: 851px) and (device-height: 393px) and (orientation:landscape) {
-.accordion-bral .ac-label {
+.algaeListContainermobile div {
+    width: 8.5vw;
+    width: 39.5vw;
+}.accordion-bral .ac-label {
     font-size: 14px !important;
   } .accordion-bral .article p {
     font-size: 14px !important;
@@ -2832,7 +2918,10 @@ font-size: 3vw;
 
 
 @media all and (device-width: 844px) and (device-height: 390px) and (orientation:landscape) {
-.accordion-bral .ac-label {
+.algaeListContainermobile div {
+    width: 8.5vw;
+    width: 39.5vw;
+}.accordion-bral .ac-label {
     font-size: 14px !important;
   } .accordion-bral .article p {
     font-size: 14px !important;
@@ -2862,7 +2951,10 @@ font-size: 3vw;
 
 
 @media all and (device-width: 896px) and (device-height: 414px) and (orientation:landscape) {
-.accordion-bral .ac-label {
+.algaeListContainermobile div {
+    width: 8.5vw;
+    width: 39.5vw;
+}.accordion-bral .ac-label {
     font-size: 14px !important;
   } .accordion-bral .article p {
     font-size: 14px !important;
@@ -2892,7 +2984,10 @@ font-size: 3vw;
 
 
 @media all and (device-width: 480px) and (device-height: 320px) and (orientation:landscape) {
-.accordion-bral .ac-label {
+.algaeListContainermobile div {
+    width: 8.5vw;
+    width: 39.5vw;
+}.accordion-bral .ac-label {
     font-size: 14px !important;
   } .accordion-bral .article p {
     font-size: 14px !important;
@@ -2920,5 +3015,441 @@ font-size: 3vw;
   color: white;
   mix-blend-mode: difference;
 }
+
+}
+
+
+
+
+
+
+  @media (min-width: 320px) and (max-width: 480px) and (orientation:portrait) {
+.algaeListContainermobile div {
+    width: 8.5vw;
+    width: 39.5vw;
+}
+.accordion-bral .ac-label {
+font-size: 14px !important;
+}
+
+.accordion-bral .article p {
+font-size: 14px !important;
+}
+
+.accordion-bral {
+  bottom: 21vh;
+}
+
+.algaeListContainermobile {
+font-size: 14px;
+}
+  }
+
+  
+
+@media all and (device-width: 375px) and (device-height: 667px) and (orientation:portrait) {
+.algaeListContainermobile div {
+    width: 8.5vw;
+    width: 39.5vw;
+}
+
+  .accordion-bral {
+    min-height: 0;
+    min-width: 220px;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    bottom: 5vh;
+  } 
+
+  .livetextmobile {
+    font-size: 16vh;
+    line-height: 1.5;
+    padding-top: 7vh;
+}
+
+}
+
+
+@media all and (device-width: 390px) and (device-height: 844px) and (orientation:portrait) {
+.algaeListContainermobile div {
+    width: 8.5vw;
+    width: 39.5vw;
+}  .accordion-bral {
+    bottom: -5vh;
+  }
+  .accordion-bral .ac-label {
+    font-size: 15px !important;
+    }
+    
+    .accordion-bral .article p {
+    font-size: 15px !important;
+    }
+
+    .algaeListContainermobile {
+      font-size: 15px;
+  }
+
+  .livetextmobile {
+   font-size: 13vh;
+   line-height: 1.5;
+   padding-top: 13vh;
+}
+  }
+
+
+  @media all and (device-width: 375px) and (device-height: 812px) and (orientation:portrait) {
+    .algaeListContainermobile div {
+        width: 8.5vw;
+        width: 39.5vw;
+    }
+    
+      .accordion-bral {
+        min-height: 0;
+        min-width: 220px;
+        width: 100%;
+        height: 100%;
+        position: relative;
+        bottom: -4vh;
+      } 
+
+      .livetextmobile {
+        font-size: 13vh;
+        line-height: 1.8;
+        padding-top: 4vh;
+     }
+    
+    }
+
+
+@media all and (device-width: 320px) and (device-height: 568px) and (orientation:portrait) {
+.algaeListContainermobile div {
+    width: 8.5vw;
+    width: 39.5vw;
+}
+
+
+  .accordion-bral .article p {
+    font-size: 12px !important;
+}
+
+.accordion-bral .ac-label {
+    font-size: 12px !important;
+}
+
+.livetextmobile {
+  padding-top: 4vh;
+  line-height: 1.5;
+  font-size: 16.5vh;
+}
+
+
+.accordion-bral {
+  min-height: 0;
+  min-width: 220px;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  bottom: 6vh;
+}
+
+}
+
+
+@media all and (device-width: 414px) and (device-height: 736px) and (orientation:portrait) {
+  .algaeListContainermobile div {
+      width: 8.5vw;
+      width: 39.5vw;
+  }
+  
+    .accordion-bral {
+      min-height: 0;
+      min-width: 220px;
+      width: 100%;
+      height: 100%;
+      position: relative;
+      bottom: 2vh;
+    } 
+  
+    .livetextmobile {
+      padding-top: 6vh;
+      font-size: 16.5vh;
+      line-height: 1.5;
+  }
+  
+  
+  }
+
+
+@media all and (device-width: 414px) and (device-height: 896px) and (orientation:portrait) {
+  .algaeListContainermobile div {
+      width: 8.5vw;
+      width: 39.5vw;
+  }  .accordion-bral {
+      bottom: -21vh;
+    }
+  
+    .accordion-bral {
+      bottom: -6vh;
+      /* font-size: 20px; */
+  }
+  
+  .accordion-bral .article p {
+    font-size: 16px !important;
+}
+  
+  .livetextmobile {
+    padding-top: 10vh;
+    font-size: 13.5vh;
+    line-height: 1.5;
+}
+
+
+.accordion-bral .ac-label {
+  /* font-size: 14px !important; */
+  font-size: 16px !important;
+}
+
+  .algaeListContainermobile {
+    font-size: 16px;
+}
+    }
+
+
+
+@media all and (device-width: 412px) and (device-height: 914px) and (orientation:portrait) {
+.algaeListContainermobile div {
+    width: 8.5vw;
+    width: 39.5vw;
+}.accordion-bral {
+  bottom: -9vh;
+}
+
+.accordion-bral .article p {
+  font-size: 15px !important;
+}
+
+.accordion-bral .ac-label {
+  font-size: 15px !important;
+}
+
+.algaeListContainermobile {
+  font-size: 15px;
+}
+
+.livetextmobile {
+  padding-top: 11vh;
+  padding-top: 10vh;
+  line-height: 1.5;
+  font-size: 13.5vh;
+}
+}
+
+
+@media all and (device-width: 412px) and (device-height: 915px) and (orientation:portrait) {
+.algaeListContainermobile div {
+    width: 8.5vw;
+    width: 39.5vw;
+}  .accordion-bral {
+  bottom: -10vh;
+}
+  
+  .accordion-bral .article p {
+    font-size: 15px !important;
+  }
+  
+  .accordion-bral .ac-label {
+    font-size: 15px !important;
+  }
+  
+  .algaeListContainermobile {
+    font-size: 15px;
+  }
+
+  .livetextmobile {
+    padding-top: 11vh;
+    padding-top: 10vh;
+    line-height: 1.5;
+    font-size: 13.5vh;
+  }
+  }
+
+
+@media all and (device-width: 393px) and (device-height: 851px) and (orientation:portrait) {
+.algaeListContainermobile div {
+    width: 8.5vw;
+    width: 39.5vw;
+}  .accordion-bral {
+  bottom: -11vh;
+}
+
+  .livetextmobile {
+    padding-top: 11vh;
+    padding-top: 10vh;
+    line-height: 1.5;
+    font-size: 13.5vh;
+}
+
+
+  }
+
+
+
+
+
+
+
+
+@media all and (device-width: 820px) and (device-height: 1180px) and (orientation:portrait) {
+.algaeListContainermobile div {
+    width: 8.5vw;
+    width: 39.5vw;
+}
+
+.accordion-bral {
+  bottom: 2vh;
+  margin: 0px!important;
+}
+
+.article.ac-content {
+  padding-top: 2vh !important;
+}
+
+.livetextmobile {
+  font-size: 20vh;
+  padding-top: 3vh;
+}
+
+.accordion-bral .ac-label {
+  font-size: 28px !important;
+}
+
+.accordion-bral .article p {
+  font-size: 28px !important;
+  margin-top: 2vh;
+}
+
+.algaeListContainermobile {
+  padding-left: calc(1vw + 1px);
+}
+
+
+
+}
+
+@media all and (device-width: 912px) and (device-height: 1368px) and (orientation:portrait) {
+.algaeListContainermobile div {
+    width: 8.5vw;
+    width: 39.5vw;
+}  .algaeListContainermobile {
+    font-size: 25px;
+}
+
+.accordion-bral {
+  bottom: 0vh;
+  margin: 0px!important;
+}
+
+
+.livetextmobile {
+  font-size: 20vh;
+  padding-top: 6vh;
+}
+
+.accordion-bral .ac-label {
+  font-size: 25px !important;
+}
+
+.accordion-bral .article p {
+  font-size: 25px !important;
+  padding: 2vh;
+}
+}
+
+@media all and (device-width: 540px) and (device-height: 720px) and (orientation:portrait) {
+.algaeListContainermobile div {
+    width: 8.5vw;
+    width: 39.5vw;
+}
+  .algaeListContainermobile {
+    font-size: 14px;
+}
+
+.accordion-bral {
+  bottom: 4vh;
+  margin: 0px!important;
+}
+
+.livetextmobile {
+  font-size: 21vh;
+  padding-top: 5vh;
+}
+
+}
+
+
+@media all and (device-width: 410px) and (device-height: 914px) and (orientation:portrait) {
+.algaeListContainermobile div {
+    width: 8.5vw;
+    width: 39.5vw;
+}
+  .accordion-bral .ac-label {
+    font-size: 14px !important;
+    padding-left: calc(5vw + 1px);
+}
+
+.accordion-bral .article p {
+  font-size: 14px !important;
+}
+
+}
+
+
+
+@media all and (device-width: 360px) and (device-height: 740px) and (orientation:portrait) {
+
+  .accordion-bral {
+    bottom: -5vh;
+}
+
+.livetextmobile {
+  padding-top: 11vh;
+  padding-top: 10vh;
+  line-height: 1.5;
+  font-size: 13.5vh;
+}
+  }
+
+
+
+/* Nest */
+@media all and (device-width: 1024px) and (device-height: 600px) and (orientation:landscape) {
+.algaeListContainermobile div {
+    width: 8.5vw;
+    width: 39.5vw;
+}
+  .algaeListContainermobile {
+    font-size: 14px;
+    padding-left: calc(2vw + 1px);
+}
+
+
+.topnav a {
+  font-size: 14px;
+}
+
+
+.livetextmobile {
+  padding-top: 0vh;
+  font-size: 35vh;
+}
+
+
+.accordion-bral {
+  bottom: 22vh;
+}
+
+.accordion-bral .ac-label {
+padding-left: calc(6.8vw + 1px); }
 
 }

@@ -1252,7 +1252,7 @@ option {
     }
   
     .FixedHeightContainermobile{
-      padding-top: 8vh;
+      padding-top: 12vh;
       /* width: 97vw;
       top: 8vw;
       position: relative;
@@ -2009,21 +2009,7 @@ width: 100%;
         transition: all 1s ease-out;
       }
       
-      .subMenu{
-        /* margin-left: auto;
-        margin-right: auto;
-        display: table-cell;
-        width: 100vw;
-        z-index: 50000;
-        position: absolute;
-        display: flex;
-        padding: var(--s-20);
-        font-size: var( --exx-small-font);
-        justify-content: space-between;
-        top: 0;
-        width: 80vw;
-        margin: var(--s-10) auto; */
-      }
+
   
       .subMenu{
         margin-left: auto;
@@ -2035,7 +2021,7 @@ width: 100%;
         /* z-index: 10; */
         display: flex;
         padding: var(--s-20);
-        padding-top: 0px;
+        padding-top: 16px;
         mix-blend-mode: difference; 
         z-index: 10000;
         font-size: var( --exx-small-font);
@@ -2790,8 +2776,8 @@ ________________________________________*/
 [id*="open-accordion"], [id*="close-accordion"] {
   /* background: #8CC152; */
   /* border-bottom: 1px solid #fff; */
-  line-height: 60px;
-  height: 60px;
+  /* line-height: 60px; */
+  /* height: 40px; */
   display: block;
   margin: 0 auto;
   position: relative;
@@ -2805,6 +2791,7 @@ ________________________________________*/
 .accordion a {
   color: rgb(10, 199, 39);
   padding: 0px 21px;
+  /* padding-bottom: 2vh; */
   /* color: #fff; */
   /* font-size: 1.25em; */
   font-weight: normal;
@@ -2878,8 +2865,8 @@ ________________________________________*/
 [id*="open-accordion11"], [id*="close-accordion11"] {
   /* background: #8CC152; */
   /* border-bottom: 1px solid #fff; */
-  line-height: 60px;
-  height: 60px;
+  /* line-height: 60px; */padding-bottom: 1vh;
+  /* height: 40px; */
   display: block;
   margin: 0 auto;
   position: relative;
@@ -2948,6 +2935,7 @@ ________________________________________*/
 
 .accordion2 span:target ~ [id*="close-accordion11"] {
   display: block;
+  /* padding-bottom: 2vh; */
 }
 
 
@@ -3522,21 +3510,7 @@ ________________________________________*/
       transition: all 1s ease-out;
     }
     
-    .subMenu{
-      /* margin-left: auto;
-      margin-right: auto;
-      display: table-cell;
-      width: 100vw;
-      z-index: 50000;
-      position: absolute;
-      display: flex;
-      padding: var(--s-20);
-      font-size: var( --exx-small-font);
-      justify-content: space-between;
-      top: 0;
-      width: 80vw;
-      margin: var(--s-10) auto; */
-    }
+ 
 
     .subMenu{
       margin-left: auto;
@@ -3547,16 +3521,13 @@ ________________________________________*/
       margin: var(--s-10) auto;
       /* z-index: 10; */
       display: flex;
-      padding: var(--s-20);
-      padding-top: 0px;
+      /* padding: var(--s-20);  */
       z-index: 10000;
       font-size: var( --exx-small-font);
       justify-content: space-between;
     }
 
     .subMenu a{
-      /* padding-left: var(--s-160);
-      padding-right: var(--s-160); */
       z-index: 50000;
       display: inline-block;
       justify-content:  space-evenly;
@@ -4499,7 +4470,7 @@ z-index: 100;
   
   .topnav a {
     color: white;
-    padding: 14px 16px;
+    padding: 7px 17px;
     text-decoration: none;
     /* font-size: 17px; */
     display: block;
