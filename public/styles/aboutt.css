@@ -114,8 +114,8 @@ div {
     overflow-x: hidden;
     /* cursor: url(../public/assets/images/cursor.cur) -50 -50, auto!important; */
       /* font-family: 'IBMPlexMono';  */
-      cursor: url("cursor3.cur") -50 -50, auto!important;
-      cursor: url("new.cur") -50 -50, auto!important;
+      cursor: url("cur.png"), url("cur.cur"), default;
+      cursor: url(cur.png), auto;
       background: #00002C;
       transition: all 0.75s ease-in-out;
       transition: opacity 0.35s, padding-left 0.75s;
@@ -546,6 +546,14 @@ top: 0;
 }
 
 
+.fraudlink{
+  text-decoration-thickness: .5px;
+  text-decoration: underline;
+  color:rgb(10, 199, 39);
+  text-underline-offset: .5px;
+  transition: opacity 0.35s;
+  transition: all 0.75s ease-in-out;
+}
 
 
 
@@ -1438,11 +1446,12 @@ padding: 2vw;
       background-color: transparent;
       z-index: 200;
       top: calc(5vw + 1px);
-      padding: 7vw 3vw 3vw 3vw;
+      padding: 0vw 3vw 3vw 3vw;
       overflow: auto;
       line-height: 1.35vw;
       font-size: 1.15vw;
       color:#ffffff;
+      padding-top: 17vh;
       /* mix-blend-mode: difference; */
       /* background-color: white; */
   }
@@ -1769,6 +1778,7 @@ padding: 2vw;
       display: flex;
       padding: var(--s-20);
       padding-top: 16px;
+      padding-bottom: 0;
       z-index: 10000;
       font-size: var( --exx-small-font);
       justify-content: space-between;
