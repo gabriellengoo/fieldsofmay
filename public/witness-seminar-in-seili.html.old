@@ -80,11 +80,25 @@
 
                     <div class="FixedHeightContainermobile">
                         <div class="Contentmobile">
+                            <!-- <p class=" subtitlemobiletop ">Fields of May</p> -->
 
-
+                            <div class="accordion">
+                                <!-- span to target fix closing accordion -->
+                                <span class="target-fix" id="accordion"></span>
                                  
-
+                                <!-- First Accoridon Option -->
                                 <div>
+                                    <!-- span to target fix accordion -->
+                                    <span class="target-fix" id="accordion1"></span>
+                                    
+                                    <!-- Link to open accordion, hidden when open --> 
+                                    <a href="#accordion1" id="open-accordion1" title="open">Fields of May</a>
+                                    
+                                    <!-- Link to close accordion, hidden when closed -->
+                                    <a href="#accordion" id="close-accordion1" title="close">Fields of May</a> 
+                                     
+                                    <!-- Accorion content goes in this div -->
+                                    <div class="accordion-content">
                                         <div class=" imgmobile ">
                                             <Image class=" imgmobile " src="/assets/images/m_FieldsOfMay_01.jpg" alt="m_FieldsOfMay_00.jpg" />
                                         </div>
@@ -111,21 +125,33 @@
                                     
                                             </div>
             
-                                   
+                                    </div>
                                 </div>       
-                           
+                            </div>
                    
 
-
-
+                            <div class="accordion2">
+                                <!-- span to target fix closing accordion -->
+                                <span class="target-fix" id="accordion2"></span>
+                                 
+                                <!-- First Accoridon Option -->
+                                <div>
+                                    <!-- span to target fix accordion -->
+                                    <span class="target-fix" id="accordion11"></span>
                                     
+                                    <!-- Link to open accordion, hidden when open --> 
+                                    <a href="#accordion11" id="open-accordion11" title="open">A witness seminar in context</a>
+                                    
+                                    <!-- Link to close accordion, hidden when closed -->
+                                    <a href="#accordion2" id="close-accordion11" title="close">A witness seminar in context</a> 
+                                    
+                                    <!-- Accorion content goes in this div -->
+                                    <div class="accordion2-content">
                                         <div class=" imgmobile ">
                                             <Image class=" imgmobile " src="/assets/images/m_FieldsOfMay_02.jpg" alt="m_FieldsOfMay_01.jpg" />
                                         </div>
                                         <div class=" contentparagraphmobile ">
-                                            <div class=" contentparagraphtitle ">
-                                                <p>A witness seminar in context</p>
-                                            </div>
+
                                             <!-- <p><b>A witness seminar in context</b></p> -->
                                                                             <p>
                                                                                 Fields of May takes as a point of departure a salvaged 19th century barque. 
@@ -164,7 +190,7 @@
                                                                                         <p id="footer" class="footnotemobile">  See overview of research themes, projects and publications here: <a class="footnotelink" href="https://sites.utu.fi/herringproject/ongoing-research/">https://sites.utu.fi/herringproject/ongoing-research/</a></p>
                                                                                             </div>
             
-                                   
+                                    </div>
                                 </div>       
                             </div>
 

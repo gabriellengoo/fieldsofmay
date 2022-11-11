@@ -1253,7 +1253,7 @@ option {
     }
   
     .FixedHeightContainermobile{
-      padding-top: 12vh;
+      padding-top: 8vh;
       /* width: 97vw;
       top: 8vw;
       position: relative;
@@ -4004,13 +4004,14 @@ background-color: #625fb93c;
         mix-blend-mode: none;
         z-index: 100;
         mix-blend-mode: difference;
-        color: #e0e0e0;
         /* align-items: center; */
-        color: rgb(10, 199, 39);
         text-align: left;
         line-height: 2.75vw !important;
-        font-size: 2vw !important;
-    margin-bottom: 0.5vw !important;
+        margin-bottom: 0.5vw !important;
+        color: rgb(28 244 60);
+        font-weight: normal;
+        text-decoration: none;
+        text-shadow: none;
       }
 
       .contentwrapper p{

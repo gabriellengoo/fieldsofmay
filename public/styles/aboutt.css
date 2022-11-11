@@ -1116,6 +1116,7 @@ padding: 2vw;
 
   .footermobile{
     font-size: .6rem;
+    font-size: 1.3vh;
     /* border-top: 1px solid; */
     padding-left: 3vw;
   }
@@ -2468,7 +2469,7 @@ display: flex;
 /*Acco*/
 .ac-container {
   max-width: 400px;
-  padding-top:9vh;
+  /* padding-top:9vh; */
   color: white;
     mix-blend-mode: difference;
 }
@@ -2991,11 +2992,12 @@ display: flex;
     text-align: left;
     color: white;
     mix-blend-mode: difference;
-    font-size: 14px;
+    /* font-size: 14px; */
 }
 
 .paragraph1 {
-  font-size: 14px;
+  /* font-size: 14px; */
+padding-top: 7vh;
 }
 
 
@@ -3114,22 +3116,30 @@ display: flex;
     text-align: left;
     color: white;
     mix-blend-mode: difference;
-    font-size: 14px;
+    /* font-size: 14px; */
 }
 
 .paragraph1 {
-  font-size: 14px;
+  /* font-size: 14px; */
+  padding-top: 7vh; 
 }
 
 
 .ac-container {
   max-width: 100vw;
-  padding-top: 5vh;
+  /* padding-top: 5vh; */
   color: white;
   mix-blend-mode: difference;
 }
 }
 
+
+@media screen and (max-device-width: 600px){
+  .paragraph1 {
+    padding-top: 6vh;
+}
+  
+}
 
 @media all and (device-width:768px ) and (device-height: 1024px) and (orientation:portrait) {
   .ac-container {
@@ -3138,11 +3148,12 @@ display: flex;
     text-align: left;
     color: white;
     mix-blend-mode: difference;
-    font-size: 14px;
+    /* font-size: 14px; */
 }
 
 .paragraph1 {
-  font-size: 14px;
+  /* font-size: 14px; */
+  padding-top: 7vh;
 }
 
 
@@ -3246,6 +3257,7 @@ display: flex;
 
 .paragraph1 {
   font-size: 14px;
+  padding-top: 7vh;
 }
 
 
@@ -3254,6 +3266,13 @@ display: flex;
   padding-top: 5vh;
   color: white;
   mix-blend-mode: difference;
+}
+
+.footermobile {
+  font-size: .6rem;
+  /* font-size: 1.3vh; */
+  /* border-top: 1px solid; */
+  padding-left: 3vw;
 }
 
 }
@@ -3294,11 +3313,12 @@ display: flex;
     text-align: left;
     color: white;
     mix-blend-mode: difference;
-    font-size: 14px;
+    /* font-size: 14px; */
 }
 
 .paragraph1 {
-  font-size: 14px;
+  /* font-size: 14px; */
+  padding-top: 7vw;
 }
 
 
@@ -3319,11 +3339,12 @@ display: flex;
     text-align: left;
     color: white;
     mix-blend-mode: difference;
-    font-size: 14px;
+    /* font-size: 14px; */
 }
 
 .paragraph1 {
-  font-size: 14px;
+  /* font-size: 14px; */
+  padding-top: 7vh;
 }
 
 
@@ -3493,3 +3514,8 @@ display: flex;
 }
 
 }
+
+
+/* max-width: 550px; */
+
+
