@@ -38,6 +38,9 @@ div {
     --line-height: 16.425vw;
   }
   
+  html{
+    scroll-padding-top: 58vh !important;
+  }
   
   /* Hide scrollbar for Chrome, Safari and Opera */
   body::-webkit-scrollbar {
@@ -1441,6 +1444,7 @@ padding: 2vw;
       /* position: fixed; */
       /* display: flex; */
       position: absolute;
+      scroll-padding-top: 10vh !important;
       top: 0;
       left: 0;
       width: 100vw;
