@@ -129,18 +129,23 @@ div {
       background: radial-gradient(circle at center , #535353bf 0,#271d7cde 20%,#00002c, #050567 100%);
   }
   
-  
+/*   
   h1 {
       margin-top: 0;
       font-size: 2rem;
       line-height: 1;
   }
-  
+   */
   a {
     color: inherit;
     text-decoration: none;
   }
   
+
+  a{
+    cursor: url("cur.png"), url("cur.cur"), default;
+    cursor: url(cur.png), auto;
+  }
   
   section{
     transition: margin-top 0.75s ease-in-out;
@@ -237,8 +242,67 @@ div {
 
 
 
-/* ---------drop down */
+/* ---------accordion */
+div.c{
+  position: relative;
+  z-index: 1000000;
+  padding-left: 20px;
+  padding: 5px 20px;
+  overscroll-behavior: none;
+  overflow: unset;
+}
+input{
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  opacity:0;
+  visibility: 0;
+}
+h1{
+  position: relative;
+  margin: 0;
+}
+label::before{
+  content: "";
+  display: inline-block;
+  border: 5px solid transparent;
+  border-left: 5px solid white;
+}
+label{
+  cursor: pointer;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+div.p{
+  max-height:0px;
+  overflow: hidden;
+  transition:max-height 0.5s;
+  box-shadow:0 0 10px 0 rgba(0, 0, 0, 0.2);
+  font-style: normal;
+    color: rgba(255, 255, 255, 0.757);
+    mix-blend-mode: difference;
+    font-family: "Helvetica Neue LT W01_65 Md",helvetica,sans-serif;
+}
 
+div.p p {
+  padding: 21px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+input:checked ~ h1 label::before{
+  border-left: 5px solid transparent;
+  border-top: 5px solid white;
+  margin-top: 12px;
+  margin-right: 10px;
+}
+input:checked ~ h1 ~ div.p{
+  /* max-height:100px; */
+  max-height: fit-content;
+}
 
 
 
@@ -2483,10 +2547,13 @@ display: flex;
   /* line-height: 21px !important; */
   /* font-size: 12px !important; */
   /* font-family: 'Open Sans','Arial Narrow',Arial,sans-serif !important; */
-  padding: 5px 20px;
+  /* padding: 5px 20px; */
+  /* padding-left: 20px; */
   position: relative;
   z-index: 20;
   display: block;
+  font-size: 12px;
+  font-weight: 100;
   /* height: 30px; */
   cursor: pointer;
   color: rgb(10, 199, 39);

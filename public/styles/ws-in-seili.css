@@ -173,6 +173,11 @@ a {
 }
 
 
+a{
+  cursor: url("cur.png"), url("cur.cur"), default;
+  cursor: url(cur.png), auto;
+}
+
 section{
   transition: margin-top 0.75s ease-in-out;
   min-height: calc(2vh - .25vw);

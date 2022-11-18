@@ -348,6 +348,7 @@ option {
 
 .containermobile{
   display: none;
+  overflow: scroll !important;
 }
 
 
@@ -1174,6 +1175,8 @@ z-index: 10000;
    /* background: radial-gradient(circle at center , #ffffff96 0,#8b83ff76 20%,#4444ff, #0000ff 100%); */
    background: radial-gradient(circle at center , #ffffffab 0,#6a6afc76 50%,#000070 60%, #12129176 70%, #00002C 100%);
    padding: 0rem;
+   overflow: scroll !important;
+
 }
 
 .containermobilemenu{
@@ -2134,6 +2137,8 @@ table.ac-table th{
 
     .containermobile{
       display: unset;
+      overflow: scroll !important;
+
     }  
 
     .mobile-container {
@@ -2194,7 +2199,7 @@ table.ac-table th{
       padding-top: 5vh;
       max-width: 535px !important;
       margin: auto;
-      line-height: 1.5;
+      line-height: 1.4;
       /* display: none; */
   }
 
@@ -2220,6 +2225,8 @@ table.ac-table th{
 
     .containermobile{
       display: unset;
+      overflow: scroll !important;
+
     }  
 
     .mobile-container {
@@ -2281,7 +2288,7 @@ table.ac-table th{
       padding-top: 5vh;
       max-width: 535px !important;
       margin: auto;
-      line-height: 1.5;
+      line-height: 1.4;
       /* display: none; */
   }
 
