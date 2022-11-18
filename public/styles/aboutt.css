@@ -280,7 +280,7 @@ div.p{
   max-height:0px;
   overflow: hidden;
   transition:max-height 0.5s;
-  box-shadow:0 0 10px 0 rgba(0, 0, 0, 0.2);
+  /* box-shadow:0 0 10px 0 rgba(0, 0, 0, 0.2); */
   font-style: normal;
     color: rgba(255, 255, 255, 0.757);
     mix-blend-mode: difference;
