@@ -1329,6 +1329,9 @@ z-index: 10000;
 
 .mainmobile{
   height: 100vh;
+
+  min-height: 100vh;
+  overscroll-behavior: auto;
   /* display: flex; */
   /* background: radial-gradient(circle at center , #ffffffab 0,#6a6afc76 50%,#000070 60%, #12129176 70%, #00002C 100%); */
   /* background: radial-gradient(circle at center , #53535396 0,#271d7c76 20%,#00002c, #050567 100%); */
@@ -2206,7 +2209,7 @@ table.ac-table th{
 
   .bottomcont{
     /* display: none; */
-    position: relative;
+    /* position: relative; */
   }
 
   .centermobile{
@@ -2295,7 +2298,7 @@ table.ac-table th{
 
   .bottomcont{
     /* display: none; */
-    position: relative;
+    /* position: relative; */
   }
 
   .centermobile{
