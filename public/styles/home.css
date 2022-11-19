@@ -2209,7 +2209,7 @@ table.ac-table th{
 
   .bottomcont{
     /* display: none; */
-    /* position: relative; */
+    position: relative;
   }
 
   .centermobile{
@@ -2298,7 +2298,7 @@ table.ac-table th{
 
   .bottomcont{
     /* display: none; */
-    /* position: relative; */
+    position: relative;
   }
 
   .centermobile{
