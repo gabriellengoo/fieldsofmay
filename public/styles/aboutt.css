@@ -283,7 +283,7 @@ div.p{
   /* box-shadow:0 0 10px 0 rgba(0, 0, 0, 0.2); */
   font-style: normal;
     color: rgba(255, 255, 255, 0.757);
-    mix-blend-mode: difference;
+    /* mix-blend-mode: difference; */
     font-family: "Helvetica Neue LT W01_65 Md",helvetica,sans-serif;
 }
 

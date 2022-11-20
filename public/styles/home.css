@@ -762,7 +762,7 @@ option {
   line-height: var( --line-height);
   font-size: var( --large-font);
   font-weight: 300;
-  mix-blend-mode: difference;
+  /* mix-blend-mode: difference; */
   text-transform: uppercase;
   font-family: 'PicNic';
   font-family: 'PicNicc';
@@ -1751,7 +1751,7 @@ left: 7vw;
   text-align: center;
   font-family: 'PicNic';
   color: #000dff;
-  color: #0051ff;
+  color: #0051ff9c;
   filter: blur(0px);
   opacity: 1;
   font-size: 13vh;
@@ -1780,7 +1780,7 @@ left: 7vw;
   padding: 2vw;
   padding-top: 11vh;
   font-size: 20vh;
-  mix-blend-mode: difference;
+  /* mix-blend-mode: difference; */
   /* padding-bottom: 17vh; */
   /* padding-top: 0; */
   /* pointer-events: none; */
@@ -2229,7 +2229,7 @@ table.ac-table th{
       max-width: 535px !important;
       margin: auto;
       line-height: 1.4;
-      mix-blend-mode: difference;
+      /* mix-blend-mode: difference; */
       /* position: fixed; */
       /* display: none; */
   }
@@ -2273,7 +2273,7 @@ table.ac-table th{
       align-content: center;
       justify-content: flex-start;
           color: rgb(255 255 212 / 75%);
-      /* mix-blend-mode: difference; */ */
+      /* mix-blend-mode: difference; */
     }
     
     .topnav {
@@ -2321,7 +2321,7 @@ table.ac-table th{
       max-width: 535px !important;
       margin: auto;
       line-height: 1.3;
-      mix-blend-mode: difference;
+      /* mix-blend-mode: difference; */
       /* display: none; */
   }
 
