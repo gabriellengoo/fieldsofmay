@@ -1879,7 +1879,7 @@ width: 100%;
     /* bottom: 2vw; */
     /* position: fixed; */
     bottom: 2vw;
-    z-index: 1;
+    z-index: 100000;
     /* display: flex; */
     mix-blend-mode: difference;
     /* flex-direction: column; */
