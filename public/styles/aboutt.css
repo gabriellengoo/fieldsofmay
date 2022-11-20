@@ -291,6 +291,8 @@ div.p p {
   /* padding: 21px; */
   padding-top: 0px;
   padding-bottom: 0px;
+  color: rgba(255, 255, 255, 0.757);
+  mix-blend-mode: difference;
 }
 
 input:checked ~ h1 label::before{
