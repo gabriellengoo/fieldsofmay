@@ -490,7 +490,7 @@ option {
     align-items: center;
     font-size: 1vw;
     font-size: 14px;
-        color: rgb(255 255 229 / 90%) !important;
+        color: rgb(255 255 212 / 75%);
     mix-blend-mode:difference;
     text-transform: none;
     width: 26vw;
@@ -508,7 +508,7 @@ option {
     text-transform: uppercase;
     align-items: center;
     font-size: 3.5vw !important;
-        color: rgb(255 255 229 / 90%) !important;
+        color: rgb(255 255 212 / 75%);
     text-transform: none;
     padding-left: calc(4.5vw + 1px);
     padding-right: calc(6.5vw + 1px);
@@ -530,7 +530,7 @@ option {
   /* margin: var(--s-10) auto; */
     justify-content: center;
     /* width: 80vw; */
-        color: rgb(255 255 229 / 90%) !important;
+        color: rgb(255 255 212 / 75%);
     mix-blend-mode:difference;
 }
 
@@ -887,7 +887,7 @@ font-size: .850vw;
   width: 100vw;
   overflow:hidden;
   transform-origin: center;
-  /*     color: rgb(255 255 229 / 90%) !important; */
+  /*     color: rgb(255 255 212 / 75%); */
   /* pointer-events: none; */
   z-index: 1000;
   mix-blend-mode: difference;
@@ -1242,7 +1242,7 @@ z-index: 10000;
   align-items: flex-start;
   font-size: 1.2rem;
   /* font-weight: bold; */
-      color: rgb(255 255 229 / 90%) !important;
+      color: rgb(255 255 212 / 75%);
   mix-blend-mode: difference;
   text-transform: none;
   /* position: fixed; */
@@ -1269,7 +1269,7 @@ z-index: 10000;
   align-items: center;
   font-size: 1.2rem;
   font-weight: bold;
-  /*     color: rgb(255 255 229 / 90%) !important; */
+  /*     color: rgb(255 255 212 / 75%); */
   border-bottom: 3px solid #0505c8;
   color: #0505c8; 
 }
@@ -1295,7 +1295,7 @@ z-index: 10000;
   text-transform: uppercase;
     align-items: center;
     font-size: 3.5vw;
-        color: rgb(255 255 229 / 90%) !important;
+        /* color: rgb(255 255 212 / 75%); */
     text-transform: none;
     /* color:rgb(255 255 159); */
     /* padding-left: calc(1.5vw + 1px);
@@ -1579,7 +1579,7 @@ background-color: transparent;
   }
 
 .salinitybtn:hover{
-      color: rgb(255 255 229 / 90%) !important;
+      color: rgb(255 255 212 / 75%);
   font-size: 1.2vw;
   font-family: "Helvetica Neue LT W01_65 Md",helvetica,sans-serif;
   /* border: 1px solid #ffffff;  */
@@ -1943,11 +1943,11 @@ width: 100%;
   height: auto;
   padding-right: 40px;
   cursor: pointer;
-  color: #777;
+  /* color: #777; */
   /* line-height: 33px; */
   font-size: 19px;
   font-size: 3.5vw;
-  color: rgb(255 255 159);
+  /* color: rgb(255 255 159); */
   /* background: #EFEFEF; */
   /* border: 1px solid #CCC; */
   position: relative;
@@ -1960,7 +1960,7 @@ width: 100%;
   text-transform: uppercase;
   align-items: center;
   font-size: 3.5vw !important;
-      color: rgb(255 255 229 / 90%) !important;
+      /* color: rgb(255 255 212 / 75%); */
   text-transform: none;
   padding-left: calc(4.5vw + 1px);
   padding-right: calc(6.5vw + 1px);
@@ -2011,7 +2011,7 @@ width: 100%;
   padding-right: calc(6.5vw + 1px);
   padding-left: calc(5.5vw + 1px);
   padding-right: calc(1.5vw + 1px);
-  /*     color: rgb(255 255 229 / 90%) !important;
+  /*     color: rgb(255 255 212 / 75%);
   color: rgb(255 255 159); */
   padding-top: 0vh;
   /* mix-blend-mode: difference; */
@@ -2041,7 +2041,7 @@ width: 100%;
   /* z-index: 100 !important; */
   text-transform: uppercase;
   align-items: center;
-      color: rgb(255 255 229 / 90%) !important;
+      /* color: rgb(255 255 212 / 75%); */
   text-transform: none;
   width: 99vw;
   /* padding-top: 5vw; */
@@ -2106,12 +2106,12 @@ table.ac-table th{
   height: auto;
   padding-right: 40px;
   cursor: pointer;
-  color: #777;
+  /* color: #777; */
   /* line-height: 33px; */
   font-size: 19px;
   font-size: 3.5vw;
-      color: rgb(255 255 229 / 90%) !important;
-  color: rgb(255 255 159);
+      /* color: rgb(255 255 212 / 75%); */
+  /* color: rgb(255 255 159); */
   /* background: #EFEFEF; */
   /* border: 1px solid #CCC; */
   position: relative;
@@ -2124,7 +2124,7 @@ table.ac-table th{
   text-transform: uppercase;
   align-items: center;
   font-size: 3.5vw !important;
-      color: rgb(255 255 229 / 90%) !important;
+      /* color: rgb(255 255 212 / 75%); */
   text-transform: none;
   padding-left: calc(4.5vw + 1px);
   padding-right: calc(6.5vw + 1px);
@@ -2170,7 +2170,7 @@ table.ac-table th{
       flex-wrap: nowrap;
       align-content: center;
       justify-content: flex-start;
-          color: rgb(255 255 229 / 90%) !important;
+          color: rgb(255 255 212 / 75%);
       mix-blend-mode: difference; */
     }
     
@@ -2193,7 +2193,7 @@ table.ac-table th{
     }
     
     .topnav a {
-          color: rgb(255 255 229 / 90%) !important;
+          color: rgb(255 255 212 / 75%);
       color: rgb(255 255 159);
       /* padding: 14px 16px; */
       padding: 7px 17px;
@@ -2260,7 +2260,7 @@ table.ac-table th{
       flex-wrap: nowrap;
       align-content: center;
       justify-content: flex-start;
-          color: rgb(255 255 229 / 90%) !important;
+          color: rgb(255 255 212 / 75%);
       mix-blend-mode: difference; */
     }
     
@@ -2283,7 +2283,7 @@ table.ac-table th{
     }
     
     .topnav a {
-          color: rgb(255 255 229 / 90%) !important;
+          color: rgb(255 255 212 / 75%);
       color: rgb(255 255 159);
       /* padding: 14px 16px; */
       padding: 7px 17px;
