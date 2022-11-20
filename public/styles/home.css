@@ -436,7 +436,8 @@ option {
   /* margin: var(--s-10) auto; */
   /* z-index: 10; */
   padding: var(--s-20);
-  padding-top: 4px;
+  /* padding-top: 0px; */
+  padding-top: 10px;
   z-index: 10;
   display: flex;
   /* padding: var(--s-20); */
@@ -770,7 +771,7 @@ option {
   padding-top: 0;
   pointer-events: none;
   transition:none;
-  color: #000dff8a;
+  color: #000dff5e;
   position: absolute;
   top: 40%;
   left: 50%;
