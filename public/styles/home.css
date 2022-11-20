@@ -784,7 +784,7 @@ option {
    line-height: var( --line-height);
    font-size: var( --large-font);
    font-weight: 300;
-   /* mix-blend-mode: difference; */
+   mix-blend-mode: difference;
    text-transform: uppercase;
    font-family: 'PicNicc';
    padding: var(--s-40);
@@ -873,12 +873,13 @@ font-size: .850vw;
   /* display: inline-block; */
   transform-origin: 0 0;
   width: 87vw;
+  color: #000dff5e;
   /* height: 60vh; */
   margin: auto;
   align-content: center;
   justify-content: center;
   z-index: 1000;
-  mix-blend-mode: difference;
+  /* mix-blend-mode: difference; */
 }
 
 
