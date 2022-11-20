@@ -63,8 +63,12 @@ body {
   border-top: 1px solid;
   padding-top: 10px;
   color: rgb(10, 199, 39);
-  /* font-size: 2.5vw; */
+  font-size: 2.5vw;
+  padding-top: 2vw;
+  border-top: .5px solid;
 }
+
+
 
 
 .link{
@@ -1312,9 +1316,6 @@ option {
   
   
   
-    .footermobile{
-      font-size: .6rem;
-    }
   
   
     .linkTopmobilewrapper{
@@ -2703,9 +2704,9 @@ width: 100%;
 
 
 
-  .footermobile{
+  /* .footermobile{
     font-size: .6rem;
-  }
+  } */
 
 
   .linkTopmobilewrapper{
