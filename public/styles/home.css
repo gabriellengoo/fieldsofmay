@@ -2189,7 +2189,7 @@ table.ac-table th{
     .topnav {
       font-size: 4vw;
       overflow: hidden;
-      /* background-color: #333; */
+      /* background-color: #333; no*/
       position: relative;
       font-size: 1.9rem;
       font-size: 4vw;
@@ -2285,6 +2285,7 @@ table.ac-table th{
       font-size: 1.9rem;
       font-size: 4vw;
       position: absolute;
+      position: fixed;
       width: 100vw;
       z-index: 100;
       /* display: none; */
