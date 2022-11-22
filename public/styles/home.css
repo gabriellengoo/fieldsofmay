@@ -2194,6 +2194,7 @@ table.ac-table th{
       font-size: 1.9rem;
       font-size: 4vw;
       position: absolute;
+      position: fixed;
       width: 100vw;
       z-index: 100;
       /* display: none; */
