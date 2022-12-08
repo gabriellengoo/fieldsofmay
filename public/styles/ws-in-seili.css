@@ -50,6 +50,22 @@ body {
   scrollbar-width: none;  /* Firefox */
 }
 
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+  background: #00002C;
+  
+}
+
+* , * ::before, * ::after {
+box-sizing: inherit;
+
+}
+
+body{
+background: #00002C;
+}
+
 
 .footnote{
   border-top: 1px solid;
