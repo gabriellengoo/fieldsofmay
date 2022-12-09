@@ -201,7 +201,7 @@ a{
 section{
   transition: margin-top 0.75s ease-in-out;
   min-height: calc(2vh - .25vw);
-  width: 99vw;
+  width: 100vw;
   transition: all 0.75s ease-in-out;
 }
 
