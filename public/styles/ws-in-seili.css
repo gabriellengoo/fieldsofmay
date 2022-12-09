@@ -48,15 +48,13 @@ body::-webkit-scrollbar {
 body {
   -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;  /* Firefox */
-  overflow: hidden !important;
 }
 
 html {
   font-size: 100%;
   box-sizing: border-box;
   background: #00002C;
-  overflow: hidden !important;
-  
+  /* overflow: hidden !important; */
 }
 
 * , * ::before, * ::after {
@@ -169,7 +167,7 @@ body {
   overflow-x: hidden;
   /* cursor: url(../public/assets/images/cursor.cur) -50 -50, auto!important; */
     /* font-family: 'IBMPlexMono';  */
-    background: #00002C;
+    background: #050567;
     /* cursor: url("new.cur") -50 -50, auto!important; */
     cursor: url("cur.png"), url("cur.cur"), default;
     cursor: url(cur.png), auto;
@@ -179,7 +177,7 @@ body {
     -moz-animation: fadein 2s; /* Firefox */
     -webkit-animation: fadein 2s; /* Safari and Chrome */
     -o-animation: fadein 2s; /* Opera */
-    background: radial-gradient(circle at center , #535353bf 0,#271d7cde 20%,#00002c, #050567 100%);
+    /* background: radial-gradient(circle at center , #535353bf 0,#271d7cde 20%,#00002c, #050567 100%); */
 }
 
 
