@@ -48,12 +48,14 @@ body::-webkit-scrollbar {
 body {
   -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;  /* Firefox */
+  overflow: hidden !important;
 }
 
 html {
   font-size: 100%;
   box-sizing: border-box;
   background: #00002C;
+  overflow: hidden !important;
   
 }
 
